@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://daytech.blog
+
+# Sitemaps
+Sitemap: https://daytech.blog/sitemap.xml

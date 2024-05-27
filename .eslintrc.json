@@ -1,0 +1,28 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // Add other Next.js core-web-vitals rules here if needed
+
+    // Add the react/no-unescaped-entities rule
+    "react/no-unescaped-entities": [
+      "error",
+      {
+        "forbid": [
+          {
+            "char": "'",
+            "alternative": "&apos;"
+          },
+          {
+            "char": "\"",
+            "alternative": "&quot;"
+          },
+          {
+            "char": "📞",
+            "alternative": "" // Add the appropriate alternative or leave it empty
+          }
+          // Add more entities as needed
+        ]
+      }
+    ]
+  }
+}
